@@ -1,0 +1,7 @@
+delimiter /
+create procedure pay_info
+(in payid int, in uid int, in cno mediumtext, in date1 date, in cv int)
+begin
+insert into payment_info values
+(payid, uid, cno, date1, cv);
+end /

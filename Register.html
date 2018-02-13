@@ -1,0 +1,94 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Sign Up Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/signs.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">DBMS Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0" action = "../JSP/Login.jsp">
+            <input class="form-control mr-sm-2" type="email" name = "EmailLogin" placeholder="Enter your e-mail" aria-label="E-mail">
+            <input class="form-control mr-sm-2" type="password" name = "PasswordLogin" placeholder="Password" aria-label="Password">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Log In</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main">
+      <div class="container">
+
+        <form class="form-signin" action= "../JSP/Register.jsp">
+          <h2 class="form-signin-heading">Sign Up To Join us Now</h2><hr class="hrule"><br>
+          <div class="row">
+            <label for="inputEmail" class="col-sm-3">Email address</label>
+            <input type="email" id="inputEmail" name = "inputEmail" class="form-control col-sm-9" placeholder="Email address" required autofocus>
+            <label for="inputUserID" class="col-sm-3">User Name</label>
+            <input type="input" id="inputUserID" name = "inputUserID" class="form-control col-sm-9" placeholder="User Name" required>
+            <label for="inputPassword" class="col-sm-3">Password</label>
+            <input type="password" id="inputPassword" name = "inputPassword" class="form-control col-sm-9" placeholder="Password" required>
+            <label for="confirmPassword" class="col-sm-3">Confirm Password</label>
+            <input type="password" id="inputPassword" name = "confirmPassword" class="form-control col-sm-9" placeholder="Re-enter Password" required>
+            <label for="cardno" class="col-sm-3">Card Number</label>
+            <input type="text" id="inputcardno" name = "cardno" class="form-control col-sm-9" placeholder="XXXX XXXX XXXX XXXX" required>
+            <label for="cvv" class="col-sm-3">CVV</label>
+            <input type="password" id="inputcvv" name = "cvv" class="form-control col-sm-9" placeholder="XXX" required>
+            <label for="expDate" class="col-sm-3">Expiry Date</label>
+            <input type="date" id="inputexpDate" name = "expDate" class="form-control col-sm-9" placeholder="YYYY-MM-DD" required>
+          </div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+        </form>
+
+      </div> <!-- /container -->
+    </main>
+
+    <footer class="footer bg-dark">
+      <div class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+          <p>&copy; 2017 Company, Inc.</p>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

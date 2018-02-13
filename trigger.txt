@@ -1,0 +1,4 @@
+mysql>delimiter /
+mysql> create trigger feecalc before update on rent for each row begin
+       set new.fee = old.fee + datediff(new.DOReturn, old.DORent);
+       end /

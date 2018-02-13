@@ -1,0 +1,101 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background-image: url("../images/games.jpg");
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 62px;
+  line-height: 60px; /* Vertically center the text there */
+  border-top: 2px solid #f7f7f7;
+  color: #f7f7f7;
+}
+
+.form-signin {
+  max-width: 60%;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.3);
+  border: 1px solid #f7f7f7;
+  border-radius: 20px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #f7f7f7;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin {
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  color: #f7f7f7;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input {
+  margin-bottom: 2em;
+  border-radius: 5px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.row {
+  padding: auto;
+  margin: auto;
+}
+
+/*.btn {
+  width: 30%;
+  margin: 0 auto 1em auto;
+}*/
+
+.hrule {
+  border-color: #f7f7f7;
+  margin-top: 20px;
+}
+
+.form-signin-heading {
+  margin-top: 10px;
+}
+
+.navbar {
+  border-bottom: 2px solid #f7f7f7;
+  height: 60px;
+  padding: auto;
+}
